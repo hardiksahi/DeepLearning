@@ -23,3 +23,10 @@ These values are changed on the basis of attention mechanism used and type of re
 * attention_type == 'dot_product' and reduction_type == 'max' => max_gradient_norm = 10.0
 * attention_type == 'bidaf' => hidden_size = 120
 * attention_type == 'self_attention' => self_attn_zsize = 60, hidden_size = 70
+
+## Results
+* Dot-Product attention: 71.37%
+* Dot-Product attention with lemmatized input: 71.57%
+* Self attention: 72.15%
+* BiDAF attention: 72.27%
+* <b>MultiHeaded Bert atttention: 89.35%</b>
