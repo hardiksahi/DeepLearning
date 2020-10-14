@@ -13,6 +13,9 @@ Based upon it, we use <b>mean Average Precision(mAP)</b> to evaluate the fine tu
 ## Command for fine tuning the model:
 python pytorch-retinanet/train.py --dataset csv --csv_train Images/retinanet_train.csv --csv_val Images/retinanet_val.csv --csv_classes Images/retinanet_classes.csv --depth 50 --epochs=20
 
+## Link to fine-tuned model
+https://drive.google.com/file/d/10H5etyY8x3fEfR6vAs3YNct5RGSWB0XI/view?usp=sharing
+
 ## Command for inferencing:
 python pytorch-retinanet/visualize.py --dataset csv --csv_classes Images/retinanet_classes.csv --csv_val Images/retinanet_test_new.csv --model csv_retinanet_15.pt --output_path Images/test_new_tagged/
 
