@@ -20,8 +20,8 @@ python pytorch-retinanet/visualize.py --dataset csv --csv_classes Images/retinan
 Our fine-tuned model achieves <b>mAP=0.7</b>
 
 ## Examples
-![img1](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/10.jpg)
-![img2](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/13.jpg)
-![img4](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/14.jpg)
-![img6](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/15.jpg)
-![img7](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/5.jpg)
+![img1](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/examples/10.jpg)
+![img2](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/examples/13.jpg)
+![img4](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/examples/14.jpg)
+![img6](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/examples/15.jpg)
+![img7](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/examples/5.jpg)
