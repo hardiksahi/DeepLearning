@@ -5,6 +5,8 @@ The problem statement of detecting tables in pdf files is handled as an Object d
 * https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/
 * https://developers.arcgis.com/python/guide/how-retinanet-works/
 
+
+# Examples
 ![img1](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/10.jpg)
 ![img2](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/13.jpg)
 ![img4](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/14.jpg)
