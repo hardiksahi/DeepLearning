@@ -10,6 +10,11 @@ To understand how to evaluate object detection models, please read the following
 https://blog.zenggyu.com/en/post/2018-12-16/an-introduction-to-evaluation-metrics-for-object-detection/. 
 Based upon it, we use <b>mean Average Precision(mAP)</b> to evaluate the fine tuned model.
 
+## Creating data for training the model:
+* <b>ConvertPDF2Img.ipynb</b> : Converts PDF to JPG images and saves on disk.
+* <b>ConvertVOC2CSVFormat.ipynb</b>: Converts PASCALVOC annotation format(xml) to csv format as mentioned in https://github.com/yhenon/pytorch-retinanet
+* <b><ParseTable.ipynb/b>: Notebook to train and infer the model.
+
 ## Command for fine tuning the model:
 python pytorch-retinanet/train.py --dataset csv --csv_train Images/retinanet_train.csv --csv_val Images/retinanet_val.csv --csv_classes Images/retinanet_classes.csv --depth 50 --epochs=20
 
