@@ -5,8 +5,21 @@ The problem statement of detecting tables in pdf files is handled as an Object d
 * https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/
 * https://developers.arcgis.com/python/guide/how-retinanet-works/
 
+## Evaluation of model
+To understand how to evaluate object detection models, please read the following link:
+https://blog.zenggyu.com/en/post/2018-12-16/an-introduction-to-evaluation-metrics-for-object-detection/. 
+Based upon it, we use <b>mean Average Precision(mAP)</b> to evaluate the fine tuned model.
 
-# Examples
+## Command for fine tuning the model:
+python pytorch-retinanet/train.py --dataset csv --csv_train Images/retinanet_train.csv --csv_val Images/retinanet_val.csv --csv_classes Images/retinanet_classes.csv --depth 50 --epochs=20
+
+## Command for inferencing:
+python pytorch-retinanet/visualize.py --dataset csv --csv_classes Images/retinanet_classes.csv --csv_val Images/retinanet_test_new.csv --model csv_retinanet_15.pt --output_path Images/test_new_tagged/
+
+## Model performance
+Our fine-tuned model achieves <b>mAP=0.7</b>
+
+## Examples
 ![img1](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/10.jpg)
 ![img2](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/13.jpg)
 ![img4](https://github.com/hardiksahi/DeepLearning/blob/master/CV/Table_Parsing/pytorch-retinanet/images/14.jpg)
